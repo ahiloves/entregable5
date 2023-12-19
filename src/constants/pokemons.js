@@ -1,0 +1,43 @@
+const gradientsByType = {
+    grass: "bg-gradient-to-b from-green-600 to-green-3200",
+    fire: "bg-gradient-to-b from-orange-500 to-orange-3200",
+    water: "bg-gradient-to-b from-blue-700 to-blue-3200",
+    ground: "bg-gradient-to-b from-gray-500 to-gray-3200",
+    bug: "bg-gradient-to-b from-blue-300 to-blue-3200",
+    flying: "bg-gradient-to-b from-blue-200 to-blue-3100",
+    normal: "bg-gradient-to-b from-gray-700 to-gray-2000",
+    poison: "bg-gradient-to-b from-yellow-500 to-yellow-2000",
+    fairy: "bg-gradient-to-b from-pink-200 to-pink-2000",
+    electric: "bg-gradient-to-b from-yellow-600 to-yellow-2000",
+    fighting: "bg-gradient-to-b from-purple-600 to-purple-2000",
+    steel: "bg-gradient-to-b from-gray-600 to-gray-2000",
+    dark: "bg-gradient-to-b from-gray-300 to-gray-2000",
+    rock: "bg-gradient-to-b from-gray-800 to-gray-2000",
+    dragon: "bg-gradient-to-b from-yellow-800 to-yellow-2000",
+    psychic: "bg-gradient-to-b from-yellow-900 to-yellow-2000",
+    ice: "bg-gradient-to-b from-blue-500 to-blue-2000",
+    ghost: "bg-gradient-to-b from-gray-900 to-blue-2000",
+};
+
+const borderByType = {
+    grass: "border-green-600",
+    fire: "border-orange-500 ",
+    water: "border-blue-700 ",
+    ground: "border-gray-500",
+    bug: "border-blue-300",
+    flying: "border-blue-200 ",
+    normal: "border-gray-700",
+    poison: "border-yellow-500",
+    fairy: "border-pink-200",
+    electric: "border-yellow-600",
+    fighting: "border-purple-200",
+    steel: "border-gray-600",
+    dark: "border-gray-300",
+    rock: "border-gray-400",
+    dragon: "border-yellow-800",
+    psychic: "border-yellow-900",
+    ice: "border-blue-500",
+    ghost: "border-gray-900",
+};
+
+export {gradientsByType, borderByType};
